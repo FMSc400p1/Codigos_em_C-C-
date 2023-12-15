@@ -1,0 +1,6 @@
+A segunda versão do projeto veio quando tava querendo fazer algo mais especifico no backend
+Mas no fim das contas fiz só um contador da idade completa da criança com os anos completos dela
++ os dias do mês que ela nasceu, do resto ficou meio sem o que reutilizar no código seguinte.
+
+Depois refiz o código na terceira e última versão do código onde funciona
+E acabei ficando sem energia pra mexer nesse depois de ficar a tarde inteira.

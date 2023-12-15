@@ -1,0 +1,15 @@
+A primeira versão era pra ser o seguinte
+
+	Quando a pessoa colocasse as informações
+	ia aparecer as informações completas do aluno
+
+	Ex: Se a pessoa ter 5 anos de idade
+		vai aparecer a quantidade de dias completos
+		porem baseados apenas como info base
+
+		Ex: se a pessoa nasceu em 01/01/2019
+		Irá ficar com "04 anos:01 meses: 01 dias"
+
+		Porem depois que soube que teria condições de idade
+		acabei tendo que discartar algumas informações pra 
+		tentar algumas coisas;

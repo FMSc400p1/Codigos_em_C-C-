@@ -1,0 +1,51 @@
+A ultima versão e com certeza uma mais simples do que as anteriores.
+
+Essa ainda se baseia na idade das crianças por dias.
+Mas simplifiquei em uma ordem onde faz muito mais sentido de trabalhar do que tudo de uma vez.
+
+Ficou assim: O que é mais delicado de se mexer durante o funcionamento do código?
+	R: Em uma ordem de prescedência ficaria mais ou menos assim
+		As informações que vou usar: Dia, Mês e Ano da data de nascimento do aluno.
+		Porém não preciso implementar tudo para fazer a contagem final.
+		
+		Por mais que o ano seja o que o código tenha que buscar, ele pode ficar por ultimo
+			ja que ele não será considerado como: "1 ano e meio de idade" ou coisa parecida;
+		E sem o ano incluindo nos dias, posso focar só no Mês e Dia.
+
+		O que seria mais importante? Dia ou Mês?
+			R: 	Pode se dizer que o dia é mais importante, porém
+				No que eu ja havia feito nos códigos anteriores
+				Posso usar o Mês primeiro como uma base de dias
+				completos, fazendo uma somatoria do calendario completo
+				até o dia em que ela faz aniversário
+
+				Então se ela nasceu em Março -> 03
+				É possível usar um array de valores onde que somo todos os meses até chegar o Mês do aluno
+				Totalizando: Mês -> 3 -> Março -> 90 dias
+					
+					Janeiro: 	31 dias \
+					Fevereiro: 	28 dias  -> 90 dias
+					Março:		31 dias /
+
+				Depois disso, é resetado o mês atual que ela parou
+				EX: Março -> 90 dias
+					reset -> 59 dias
+				Por que?
+					Quando houver o reset, eu adiciono o dia de nascimento dela pra quantidade de dias;
+					EX: Se ela nasceu em 14/03
+						Será: 59 dias \ 
+								+	   -> 73 :Esse valor vai ser a data de aniversário limite dela
+							  14 dias /
+				Quando for feito esse processo, coloco agora a data limite de meses e dias para saber que idade os alunos teram, antes e depois da data limite, pois se eles estiverem com alguma data específica.
+				Seram colocados em turmas respectivas com a idade;
+
+				Se o aluno tem menos de 2 anos completos -> Não tem idade o suficiente
+								2 anos completos -> Maternal 1
+								3 anos completos -> Maternal 2
+								4 anos completos -> Jardim 1
+								5 anos completos -> Jardim 2
+								6 anos completos -> Não pode mais entrar
+
+
+
+

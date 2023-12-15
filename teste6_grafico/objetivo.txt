@@ -1,0 +1,21 @@
+Programa que simula um gráfico que mede a entrada e saida de clietes da loja
+1º modelo
+	Fazer com que ele faça uma linha em que pelo menos 5 expectativas sejam alcançadas
+
+
+	Fazer as perguntas e colocar o usuario em um tempo estimado nas horas de funcionamento da loja
+	Ex: Horário: 14h - 15h
+		Clientes na loja: 1
+		Clientes na loja: 2
+		Clientes na loja: 3
+		Clientes na loja: 4
+		Clientes na loja: 5
+		Clientes na loja: 6
+		Clientes na loja: 7
+		Clientes na loja: 0
+		Se for igual a zero -> avança as horas
+	     
+	   Horário: 15h - 16h
+		Clientes na loja: 1
+		Clientes na loja: 2
+		Clientes na loja: 3
